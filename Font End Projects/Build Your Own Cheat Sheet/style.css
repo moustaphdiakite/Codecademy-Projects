@@ -1,0 +1,30 @@
+/* General Formating */
+
+body {
+	background-color: lemonchiffon;
+	text-align: center;
+}
+
+
+table {
+	margin: auto;
+	text-align: left;
+	width: 50%;
+	border: 5px solid sandybrown;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+tr {
+    border-bottom: 3px solid sandybrown;
+}
+th {
+    text-align: center;
+}
+thead {
+    background-color: rgb(165, 42, 42);
+    color: white;
+}
