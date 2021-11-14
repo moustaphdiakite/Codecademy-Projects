@@ -25,13 +25,50 @@
 }
 
 /* Header */
-
-header h1 {
-	text-align: center;
+body {
 	font-family: "Cormorant Garamond", Serif;
+}
+
+nav {
+	margin-bottom: 20px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+}
+
+#header {
+	text-align: center;
 	font-size: 55px;
 }
 
+#nav-list {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	width: 50%;
+	margin: auto;
+	padding-left: unset;
+	background-color: antiquewhite;
+}
+
+#nav-list li {
+	width: auto;
+	padding: 10px 30px;
+	margin: 20px;
+	font-size: 25px;
+}
+
+#nav-list li a {
+	text-decoration: none;
+	color: cornflowerblue;
+}
+#nav-list li a:hover {
+	color: #024dfa;
+}
+
+#nav-list li a:active {
+	color: #ff0000;
+}
 /* Colors Section */
 
 #colors {
