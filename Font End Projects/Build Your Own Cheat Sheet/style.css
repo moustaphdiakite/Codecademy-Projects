@@ -1,10 +1,68 @@
+/* Import Resources */
+
+/* latin */
+@font-face {
+	font-family: "Permanent Marker";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/permanentmarker/v10/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cf5b6jlg.woff2)
+		format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+		U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Dancing Script";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/dancingscript/v19/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2)
+		format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+		U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Dancing Script";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/dancingscript/v19/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2)
+		format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+		U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Dancing Script";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/dancingscript/v19/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2)
+		format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+		U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Dancing Script";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/dancingscript/v19/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2)
+		format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+		U+FEFF, U+FFFD;
+}
+
 /* General Formating */
 
 body {
 	background-color: lemonchiffon;
 	text-align: center;
 }
-
 
 table {
 	margin: auto;
@@ -13,18 +71,18 @@ table {
 	border: 5px solid sandybrown;
 }
 h1 {
-    font-family: 'Permanent Marker', cursive;
+	font-family: "Permanent Marker", cursive;
 }
 h2 {
-    font-family: 'Dancing Script', cursive;
+	font-family: "Dancing Script", cursive;
 }
 tr {
-    border-bottom: 3px solid sandybrown;
+	border-bottom: 3px solid sandybrown;
 }
 th {
-    text-align: center;
+	text-align: center;
 }
 thead {
-    background-color: rgb(165, 42, 42);
-    color: white;
+	background-color: rgb(165, 42, 42);
+	color: white;
 }
