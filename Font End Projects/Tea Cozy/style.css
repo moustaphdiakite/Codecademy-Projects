@@ -1,0 +1,42 @@
+/* Universal Style */
+
+html {
+	font-size: 22px;
+}
+body {
+	background-color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+}
+
+/* Header Nav Bar */
+header {
+	width: 100%;
+}
+#nav-bar {
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 3.136rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+img[src="./images/img-tea-cozy-logo.png"] {
+	height: 2.272rem;
+	margin-left: 0.454rem;
+}
+
+.nav-list {
+	display: flex;
+}
+.nav-list li {
+	margin-right: 4.545rem;
+	text-decoration: underline;
+}
