@@ -114,3 +114,13 @@ img[src="./images/img-tea-cozy-logo.png"] {
 	align-items: center;
 	justify-content: center;
 }
+
+/* Footer */
+
+.contact {
+	height: 9.09rem;
+}
+.copyright {
+	text-align: left;
+	margin-left: 0.909rem;
+}
