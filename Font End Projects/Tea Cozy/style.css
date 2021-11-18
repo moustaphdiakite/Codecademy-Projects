@@ -56,3 +56,29 @@ img[src="./images/img-tea-cozy-logo.png"] {
 	background-color: black;
 	width: 100%;
 }
+/* Main */
+
+#FeatureTea {
+	width: 45.454rem;
+	margin: auto;
+	text-align: center;
+}
+
+.gallery {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+.photo {
+	width: 13.636rem;
+	margin: 0 0.45rem 1.82rem 0.45rem;
+}
+
+.photo img {
+	margin-bottom: 0.45rem;
+}
+
+.photo h4 {
+	margin: 0;
+}
