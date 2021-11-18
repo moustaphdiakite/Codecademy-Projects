@@ -56,7 +56,7 @@ img[src="./images/img-tea-cozy-logo.png"] {
 	background-color: black;
 	width: 100%;
 }
-/* Main */
+/* Main FeatureTea*/
 
 #FeatureTea {
 	width: 45.454rem;
@@ -81,4 +81,36 @@ img[src="./images/img-tea-cozy-logo.png"] {
 
 .photo h4 {
 	margin: 0;
+}
+
+/* Main Location*/
+
+#locations {
+	width: 54.545rem;
+	height: 22.727rem;
+	background-image: url(./images/img-locations-background.jpeg);
+	margin: 0 auto;
+	background-position: top;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#locations h2 {
+	margin: 0;
+}
+
+.area {
+	width: 13.636rem;
+	height: 13.636rem;
+	background-color: black;
+	opacity: 1;
+	margin: 15px 20px;
+}
+
+#areas-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
