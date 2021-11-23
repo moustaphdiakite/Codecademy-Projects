@@ -413,12 +413,16 @@ header .mobile {
 footer {
 	background-color: #9b9b9b;
 	padding: 1.5rem 2rem;
+	height: 62px;
+	box-sizing: border-box;
 }
 
 footer .content {
 	color: white;
 	display: flex;
 	font-size: 0.75rem;
+	height: 20px;
+	align-items: center;
 }
 
 footer .copyright {
