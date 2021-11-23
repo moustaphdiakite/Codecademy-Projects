@@ -187,6 +187,16 @@ header .mobile {
 		height: auto;
 		background-color: transparent;
 		border: none;
+		padding: unset;
+		margin: unset;
+	}
+
+	.header {
+		margin-bottom: unset;
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
 	}
 
 	#sign-up-cta .content {
@@ -203,6 +213,9 @@ header .mobile {
 
 	#sign-up-cta h2 {
 		font-size: 2.25rem;
+	}
+	#sign-up-cta .striking {
+		padding-bottom: 0;
 	}
 }
 
