@@ -179,6 +179,7 @@ header .mobile {
 		align-items: center;
 		justify-content: center;
 		height: 28rem;
+		background-position: right;
 	}
 
 	#sign-up-cta {
