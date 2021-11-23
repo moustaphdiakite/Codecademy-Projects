@@ -8,6 +8,7 @@ html {
 .main-content {
 	position: relative;
 	top: 5.3125rem; /* To offset for fixed header. */
+	overflow-x: hidden;
 }
 
 .center {
