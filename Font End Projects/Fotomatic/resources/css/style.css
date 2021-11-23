@@ -321,8 +321,7 @@ header .mobile {
 
 .filter {
 	width: 25%;
-	
-} 
+}
 
 .filter img {
 	height: 100%;
@@ -364,7 +363,7 @@ header .mobile {
 	background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
 	padding: 5rem 0;
 }
 
@@ -379,6 +378,17 @@ header .mobile {
 
 #quotes-section quote-citation {
 	height: 1.875rem;
+}
+
+.quote {
+	font-family: Palatino-italic;
+	line-height: 1.1;
+	font-size: 30px;
+	color: #4a4a4a;
+}
+.quote-citation {
+	vertical-align: bottom;
+	margin-left: 30px;
 }
 
 @media only screen and (max-width: 760px) {
