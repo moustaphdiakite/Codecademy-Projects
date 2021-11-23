@@ -12,6 +12,7 @@ html {
 
 .center {
 	text-align: center;
+	width: 100%;
 }
 
 .button {
@@ -26,6 +27,8 @@ html {
 
 .image-container img {
 	display: block;
+
+	width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -221,28 +224,32 @@ header .mobile {
 #features-section {
 	display: flex;
 	justify-content: space-between;
-	padding: 4rem 5%;
+	padding: 64px 5% 46px 5%;
 	background-color: #f3f3f3;
 }
 
 .feature {
 	flex: 1;
-	padding: 2rem;
-	margin: 0px 1.25rem;
+	padding: 32px;
+	margin: 0px 19px;
 	background-color: white;
+	height: 635px;
+	box-sizing: border-box;
 }
 
 .feature .image-container {
-	width: 90%;
 	height: 65%;
 	margin: 0 auto;
 }
-
+#features-section .content {
+	margin-top: 40px;
+}
 .feature h2 {
 	padding-bottom: 0.5rem;
 	font-size: 2.25rem;
 	font-weight: bold;
 	color: #4a4a4a;
+	line-height: 1.2;
 }
 
 .feature h3 {
