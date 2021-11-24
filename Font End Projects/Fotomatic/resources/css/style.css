@@ -330,11 +330,32 @@ header .mobile {
 	color: #4a4a4a;
 }
 
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+	#features-section {
+		padding: 20px 16px;
+	}
+
+	.feature {
+		padding: 16px 16px 35px 16px;
+		margin: 0;
+		height: auto;
+	}
+
+	.feature:first-child {
+		margin-right: 16px;
+	}
+
+	.feature h2 {
+		font-size: 1.125rem;
+		line-height: 1.3;
+		font-weight: bold;
+	}
+}
+
 @media only screen and (max-width: 890px) {
 	.feature h2 {
 		font-size: 1.125rem;
 		line-height: 1.3;
-		font-weight: normal;
 	}
 
 	.feature h3 {
