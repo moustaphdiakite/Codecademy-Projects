@@ -447,6 +447,7 @@ header .mobile {
 
 	#filters-section .content {
 		margin-bottom: 1rem;
+		padding-left: 0;
 	}
 
 	#filters-section .content h2 {
