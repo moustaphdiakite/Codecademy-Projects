@@ -11,6 +11,12 @@ html {
 	overflow-x: hidden;
 }
 
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+	.main-content {
+		top: 4.2rem;
+	}
+}
+
 .center {
 	text-align: center;
 	width: 100%;
@@ -133,6 +139,10 @@ header .mobile {
 		background-color: #9dc20b;
 		line-height: 1.6;
 		color: white;
+	}
+
+	header .content {
+		padding: 1.3rem;
 	}
 
 	header .icon {
