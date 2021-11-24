@@ -460,6 +460,7 @@ header .mobile {
 	#filters-section .content h3 {
 		font-size: 0.875rem;
 		line-height: 1.4;
+		padding: 0 15px 0 15px;
 	}
 
 	#filters-section .images-container {
