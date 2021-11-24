@@ -507,6 +507,23 @@ header .mobile {
 	vertical-align: bottom;
 }
 
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+	#quotes-section .content {
+		padding: 3rem 0;
+		display: flex;
+	}
+
+	#quotes-section .quote {
+		font-size: 1.575rem;
+		text-align: left;
+		margin-left: 2rem;
+	}
+
+	#quotes-section .quote-citation {
+		margin-right: 29px;
+	}
+}
+
 @media only screen and (max-width: 760px) {
 	#quotes-section .content {
 		padding: 1.875rem 0;
