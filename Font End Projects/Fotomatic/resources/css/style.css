@@ -83,6 +83,11 @@ header .mobile {
 }
 
 @media only screen and (max-width: 760px) {
+	header {
+		height: 48px;
+		box-sizing: border-box;
+	}
+
 	header .desktop {
 		display: none;
 	}
