@@ -460,6 +460,16 @@ footer .copyright {
 	flex-grow: 1;
 }
 
+@media only screen and (max-width: 760px) {
+	span.copyright {
+		font-size: 10px;
+	}
+
+	footer {
+		padding: 1.5rem 0.5rem;
+	}
+}
+
 @media only screen and (min-width: 760px) {
 	footer .content {
 		font-size: 0.625rem;
