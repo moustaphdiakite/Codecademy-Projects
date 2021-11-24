@@ -431,6 +431,14 @@ header .mobile {
 .filter img {
 	height: 100%;
 }
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+	#filters-section {
+		padding: 4rem 0 0 0;
+	}
+	#filters-section .content {
+		margin-bottom: 3rem;
+	}
+}
 
 @media only screen and (max-width: 760px) {
 	#filters-section {
