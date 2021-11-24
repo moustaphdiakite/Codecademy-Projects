@@ -383,6 +383,10 @@ header .mobile {
 	#filters-section .extra {
 		display: none;
 	}
+
+	.filter {
+		width: calc(100% / 3);
+	}
 }
 
 /* Quotes Section */
