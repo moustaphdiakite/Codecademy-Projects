@@ -136,7 +136,7 @@ header .mobile {
 	}
 
 	header .icon {
-		    vertical-align: middle;
+		vertical-align: middle;
 	}
 }
 
@@ -197,6 +197,27 @@ header .mobile {
 #sign-up-cta .button {
 	margin-top: 1.625rem;
 	padding: 1.25rem 7.25rem;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+	#sign-up-section {
+		justify-content: center;
+		align-items: center;
+		background-size: cover;
+		height: 24rem;
+	}
+
+	#sign-up-cta .email {
+		display: none;
+	}
+
+	#sign-up-cta {
+		margin: 0px;
+		background-color: unset;
+		border: unset;
+		border-radius: 0px;
+		padding-bottom: 0px;
+	}
 }
 
 @media only screen and (max-width: 760px) {
