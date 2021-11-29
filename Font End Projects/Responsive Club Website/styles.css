@@ -1,0 +1,186 @@
+html {
+    color: black;
+}
+
+h1 {
+    font-size: 2em;
+    background-color: #48967D;
+    text-align: center;
+    margin: 10rem 0;
+    padding: 2rem;
+    font-weight: bolder;
+;
+}
+h2 {
+    font-size: 1.5em;
+    color: #EC2E3A;
+    font-weight: bolder;
+}
+h3 {
+    font-size: 1.3em;
+    color: #EC2E3A;
+    margin-bottom: 1.5rem;
+    font-weight: bolder;
+}
+p {
+    margin-bottom: 2rem;
+}
+
+body {
+    background-color: #F9FBEB;
+
+}
+
+header,
+footer {
+    background-color: #0A3729;
+    height: 3rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+header li,
+footer li {
+    display: inline-block;
+    margin: 0 2rem 10px 2rem;
+    color: #D1E743;
+}
+
+
+.introduction {
+    padding: 1rem;
+}
+
+
+
+.quote {
+    background-color: #D1E743;
+    padding: 4rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.quote h2 {
+    margin-bottom: 1rem;
+}
+
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.pictures img {
+    width: 30%;
+    height: auto;
+    height: 290px;
+}
+
+
+.invitation {
+    text-align: center
+}
+
+.last-image {
+    width: 50%;
+    height: auto;
+    margin: 2rem auto;
+    display: block;
+}
+
+.time {
+    text-align: center;
+}
+
+@media only screen and (max-width: 425px) {
+    
+    header,
+    footer {
+        height: unset;
+    }
+
+    header li,
+    footer li {
+        display: block;
+        text-align: center;
+        padding: 0.5rem;
+        text-decoration: underline;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    h1 {
+        margin: 5rem 0;
+    }
+
+    .introduction {
+        text-align: center;
+    }
+
+    .pictures img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.7em;
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .pictures img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.4rem;
+    }
+
+    .pictures {
+        margin-bottom: 1.5rem;
+    }
+
+    .quote h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    h3.meet-up.time {
+        width: 90%;
+        margin: 0 auto 1.5rem auto;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .quote h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 3em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    header, 
+    footer {
+        height: 4em;
+    }
+
+
+}
