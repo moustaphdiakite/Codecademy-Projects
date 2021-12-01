@@ -3,7 +3,7 @@ html {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
     background-color: #48967D;
     text-align: center;
     margin: 10rem 0;
@@ -12,12 +12,12 @@ h1 {
 ;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #EC2E3A;
     font-weight: bolder;
 }
 h3 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: #EC2E3A;
     margin-bottom: 1.5rem;
     font-weight: bolder;
@@ -127,11 +127,11 @@ footer li {
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     h3 {
-        font-size: 1.7em;
+        font-size: 1.7rem;
     }
 
 }
@@ -154,7 +154,7 @@ footer li {
     }
 
     h3 {
-        font-size: 2em;
+        font-size: 2rem;
     }
 
     h3.meet-up.time {
@@ -166,20 +166,20 @@ footer li {
 
 @media only screen and (max-width: 1440px) {
     .quote h2 {
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     h3 {
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 4rem;
     }
 
     header, 
     footer {
-        height: 4em;
+        height: 4rem;
     }
 
 
