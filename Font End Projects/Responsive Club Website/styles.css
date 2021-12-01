@@ -130,7 +130,7 @@ footer li {
 	}
 }
 
-@media only screen and (max-width: 26.56rem) {
+@media only screen and (max-width: 26.625rem) {
 	header,
 	footer {
 		height: unset;
