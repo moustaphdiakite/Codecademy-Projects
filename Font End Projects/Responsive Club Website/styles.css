@@ -86,6 +86,50 @@ footer li {
 	text-align: center;
 }
 
+@media only screen and (max-width: 90rem) {
+	.quote h2 {
+		font-size: 3rem;
+	}
+
+	h3 {
+		font-size: 3rem;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	header,
+	footer {
+		height: 4rem;
+	}
+}
+
+@media only screen and (max-width: 64rem) {
+	.pictures img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 1.4rem;
+	}
+
+	.pictures {
+		margin-bottom: 1.5rem;
+	}
+
+	.quote h2 {
+		font-size: 3rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	h3.meet-up.time {
+		width: 90%;
+		margin: 0 auto 1.5rem auto;
+	}
+}
+
 @media only screen and (max-width: 26.56rem) {
 	header,
 	footer {
@@ -124,49 +168,5 @@ footer li {
 
 	h3 {
 		font-size: 1.7rem;
-	}
-}
-
-@media only screen and (max-width: 64rem) {
-	.pictures img {
-		width: 100%;
-		height: auto;
-		margin-bottom: 1.4rem;
-	}
-
-	.pictures {
-		margin-bottom: 1.5rem;
-	}
-
-	.quote h2 {
-		font-size: 3rem;
-	}
-
-	h3 {
-		font-size: 2rem;
-	}
-
-	h3.meet-up.time {
-		width: 90%;
-		margin: 0 auto 1.5rem auto;
-	}
-}
-
-@media only screen and (max-width: 90rem) {
-	.quote h2 {
-		font-size: 3rem;
-	}
-
-	h3 {
-		font-size: 3rem;
-	}
-
-	h1 {
-		font-size: 4rem;
-	}
-
-	header,
-	footer {
-		height: 4rem;
 	}
 }
