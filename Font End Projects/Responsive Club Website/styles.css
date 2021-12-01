@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    padding: 1rem;
+	padding: 1rem;
 }
 
 h1 {
@@ -111,7 +111,7 @@ footer li {
 
 @media only screen and (max-width: 64rem) {
 	.pictures img {
-		width: 100%;
+		width: 30%;
 		height: auto;
 		margin-bottom: 1.4rem;
 	}
