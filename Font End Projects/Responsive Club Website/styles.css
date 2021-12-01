@@ -101,6 +101,7 @@ footer li {
 
 	h1 {
 		font-size: 4rem;
+		margin: 3rem 0;
 	}
 
 	header,
@@ -153,7 +154,7 @@ footer li {
 	}
 
 	h1 {
-		margin: 5rem 0;
+		margin: 2.5rem 0;
 	}
 
 	.introduction {
