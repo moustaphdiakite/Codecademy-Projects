@@ -33,3 +33,7 @@ nav ul {
 .nav-link:hover {
 	color: blue;
 }
+
+.mission {
+	text-align: center;
+}
