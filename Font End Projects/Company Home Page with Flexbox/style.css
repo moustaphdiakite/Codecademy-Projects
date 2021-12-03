@@ -37,3 +37,17 @@ nav ul {
 .mission {
 	text-align: center;
 }
+
+#banner {
+	background-image: url("./Assets/Pictures/Wall-street.jpeg");
+	height: 400px;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.content {
+	background-color:hsla(360, 100%, 100%, 1);
+	width: 100%;
+}
