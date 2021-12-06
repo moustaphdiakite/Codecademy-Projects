@@ -3,13 +3,12 @@ html {
 	font-family: "Oswald", sans-serif;
 }
 
-/*
 @media only screen and (min-width: 1439px) {
 	html {
 		font-size: 1.7rem;
 	}
 }
-*/
+
 /* header */
 
 h1,
@@ -135,10 +134,8 @@ address {
 	text-align: center;
 }
 
-/*
 @media only screen and (min-width: 1439px) {
 	address {
 		font-size: 1.3rem;
 	}
 }
-*/
